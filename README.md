@@ -1,5 +1,7 @@
 # Paper Radar
 
+> **Archived (2026-10-15).** This project is no longer developed. For paper tools for agents, see [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server), the [alphaXiv MCP](https://www.alphaxiv.org/docs/mcp), or the [Hugging Face MCP server](https://github.com/huggingface/hf-mcp-server).
+
 Paper Radar is a plugin for [Grok Bot](https://x.ai/bot) and [Cursor](https://cursor.com) that helps an agent find, track, and read research papers. It uses free public data from [arXiv](https://arxiv.org) and [OpenAlex](https://openalex.org). You need no account and no API key.
 
 ## What you can ask
