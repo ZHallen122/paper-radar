@@ -1,0 +1,17 @@
+{
+  "name": "paper-radar",
+  "displayName": "Paper Radar",
+  "version": "0.0.1",
+  "description": "Track and read research papers from arXiv and OpenAlex. Validation build: self-test tools only.",
+  "author": {
+    "name": "ZHallen122"
+  },
+  "homepage": "https://github.com/ZHallen122/paper-radar",
+  "repository": "https://github.com/ZHallen122/paper-radar",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["arxiv", "openalex", "papers", "research", "mcp"],
+  "category": "research",
+  "tags": ["research", "papers", "arxiv", "mcp"],
+  "mcpServers": "./mcp.json"
+}

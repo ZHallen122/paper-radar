@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "paper-radar": {
+      "command": "node",
+      "args": ["${CURSOR_PLUGIN_ROOT}/server/server.mjs"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+  <title id="t">Paper Radar logo</title>
+  <desc id="d">A white radar sweep over a folded paper sheet on a dark blue rounded square.</desc>
+  <rect width="512" height="512" rx="112" fill="#13294B"/>
+  <path d="M164 128h140l64 64v192a12 12 0 0 1-12 12H164a12 12 0 0 1-12-12V140a12 12 0 0 1 12-12z" fill="#F4F6FA"/>
+  <path d="M304 128v52a12 12 0 0 0 12 12h52z" fill="#C9D3E6"/>
+  <circle cx="256" cy="300" r="72" fill="none" stroke="#13294B" stroke-width="12"/>
+  <circle cx="256" cy="300" r="36" fill="none" stroke="#13294B" stroke-width="12"/>
+  <path d="M256 300 L312 254" stroke="#2F80ED" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="300" r="12" fill="#2F80ED"/>
+</svg>
