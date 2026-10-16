@@ -1,6 +1,6 @@
 {
   "name": "paper-radar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "Paper Radar: a Cursor / Grok Bot plugin for tracking and reading research papers.",
   "type": "module",
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "node server/server.mjs",
-    "test": "node scripts/smoke-test.mjs"
+    "test": "node --test test/unit.test.mjs && node scripts/smoke-test.mjs --offline",
+    "test:live": "node scripts/smoke-test.mjs"
   }
 }

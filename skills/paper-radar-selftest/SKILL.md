@@ -9,14 +9,12 @@ Use this skill to confirm that the Paper Radar MCP server started and can reach 
 
 ## Steps
 
-1. Call the `hello` tool from the `paper-radar` MCP server.
-2. Call the `check_sources` tool with no arguments.
-3. Report the results to the user in a short table with these rows:
-   - Server started: yes or no, with the Node version and platform from `hello`.
-   - arXiv: reachable or not, response time, and the sample title.
-   - OpenAlex: reachable or not, response time, and the sample title.
+1. Call the `self_test` tool from the `paper-radar` MCP server.
+2. Report the result in a short table with one row per source: arXiv, OpenAlex, and arXiv full text. Include reachable or not, the response time, and the sample title.
+3. Add one line with the Node version, the platform, and whether an OpenAlex API key is configured.
 
 ## If something fails
 
 - If the `paper-radar` tools are not available at all, say that the MCP server did not start. Ask the user to check that Node.js 18 or newer is installed where the agent runs.
-- If `check_sources` reports an error for one source, quote the `status` or `error` field exactly. Do not guess at the cause.
+- If a source reports an error, quote its `error` field exactly. Do not guess at the cause.
+- If OpenAlex reports that its daily budget is used up, explain that arXiv tools still work, and that a free personal key from https://openalex.org/settings/api raises the limit. The key goes in the `OPENALEX_API_KEY` environment variable.
